@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 79400716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 313835175536604346, guid: 3fccea93cad6c794ab1a94bc04ceb925, type: 3}
@@ -46060,7 +46060,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 580202777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 91408562292895013, guid: e1ade3ebc2cffde4e9a01445e85032c2, type: 3}
@@ -47233,7 +47233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 623169395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 782998795420425259, guid: f6d73a18ce3a0ce468ad47c74492dc7f, type: 3}
@@ -51783,7 +51783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794752589}
-  - component: {fileID: 794752588}
+  - component: {fileID: 794752590}
   m_Layer: 0
   m_Name: Spawn cloud (8)
   m_TagString: Untagged
@@ -51791,20 +51791,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &794752588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794752587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 91408562292895013, guid: e1ade3ebc2cffde4e9a01445e85032c2, type: 3}
-  SpawnTime: 0
 --- !u!4 &794752589
 Transform:
   m_ObjectHideFlags: 0
@@ -51820,6 +51806,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2130744385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794752590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794752587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 899006759738929060, guid: b275ffaa1bbada04b80d865bdd8b926b, type: 3}
+  SpawnTime: 0
 --- !u!1 &801560363
 GameObject:
   m_ObjectHideFlags: 0
@@ -54353,7 +54353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933441314}
-  - component: {fileID: 933441313}
+  - component: {fileID: 933441315}
   m_Layer: 0
   m_Name: Spawn cloud (6)
   m_TagString: Untagged
@@ -54361,20 +54361,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &933441313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933441312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 91408562292895013, guid: e1ade3ebc2cffde4e9a01445e85032c2, type: 3}
-  SpawnTime: 0
 --- !u!4 &933441314
 Transform:
   m_ObjectHideFlags: 0
@@ -54390,6 +54376,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2130744385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933441315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933441312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 260199420545285568, guid: aa6bc54bcdcdb824e95bd9cc6d401062, type: 3}
+  SpawnTime: 0
 --- !u!1 &935032967
 GameObject:
   m_ObjectHideFlags: 0
@@ -57687,7 +57687,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1060015616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6420404287470389449, guid: a37a58e36d8b7d64bb7d045cd49780b7, type: 3}
@@ -77116,7 +77116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1755962230}
-  - component: {fileID: 1755962229}
+  - component: {fileID: 1755962231}
   m_Layer: 0
   m_Name: Spawn cloud (7)
   m_TagString: Untagged
@@ -77124,20 +77124,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1755962229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755962228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 91408562292895013, guid: e1ade3ebc2cffde4e9a01445e85032c2, type: 3}
-  SpawnTime: 0
 --- !u!4 &1755962230
 Transform:
   m_ObjectHideFlags: 0
@@ -77153,6 +77139,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2130744385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1755962231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755962228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 4519950954115559119, guid: d665f1317403330438acece1f4a98f88, type: 3}
+  SpawnTime: 0
 --- !u!1 &1764236289
 GameObject:
   m_ObjectHideFlags: 0
@@ -86378,7 +86378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2101339958}
-  - component: {fileID: 2101339957}
+  - component: {fileID: 2101339959}
   m_Layer: 0
   m_Name: Spawn cloud (1)
   m_TagString: Untagged
@@ -86386,20 +86386,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2101339957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101339956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 2228940095125130638, guid: b9be62ec396919748a152cef4f1ba980, type: 3}
-  SpawnTime: 0
 --- !u!4 &2101339958
 Transform:
   m_ObjectHideFlags: 0
@@ -86415,6 +86401,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2130744385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101339959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101339956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 2228940095125130638, guid: b9be62ec396919748a152cef4f1ba980, type: 3}
+  SpawnTime: 0
 --- !u!1 &2103051736
 GameObject:
   m_ObjectHideFlags: 0
@@ -87178,7 +87178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2132020278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efa0c4ee399a7042a98ae5a533bc5b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de07b5295d6438448f7e1a53fcad391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 7079067633937334499, guid: a6bed31bc1cd95c4c9a46c529f63845a, type: 3}
